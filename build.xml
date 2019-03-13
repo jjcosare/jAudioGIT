@@ -32,7 +32,7 @@
     <target name="compile" description="Compile code">
         <mkdir dir="${bin}"/>
         <mkdir dir="${lib}"/>
-        <javac srcdir="${src}" destdir="${bin}" includeAntRuntime="no"
+        <javac encoding="iso-8859-1" srcdir="${src}" destdir="${bin}" includeAntRuntime="no"
                classpathref="lib.path" debug="${compile.debug}">
         </javac>
     </target>
