@@ -1,2 +1,17 @@
+# eclipse settings
+.classpath
+.project
 bin
 workspace.xml
+
+# android and xcode ide settings
+jAudio*
+
+# ant build folder
+dist/
+
+# intellij settings
+.idea/
+*.iml
+
+
